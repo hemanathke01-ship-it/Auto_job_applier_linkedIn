@@ -21,10 +21,10 @@ version:    26.01.20.5.08
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Give an relative path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
-default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
+default_resume_path = "file:///C:/Users/heman/OneDrive/Desktop/HEMNATH%20K%20E_BOM%20ENGINEER%20RESUME...pdf"      # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
-years_of_experience = "5"          # A number in quotes Eg: "0","1","2","3","4", etc.
+years_of_experience = "3"          # A number in quotes Eg: "0","1","2","3","4", etc.
 
 # Do you need visa sponsorship now or in future?
 require_visa = "No"               # "Yes" or "No"
@@ -33,11 +33,11 @@ require_visa = "No"               # "Yes" or "No"
 website = "https://github.com/GodsScion"                        # "www.example.bio" or "" and so on....
 
 # Please provide the link to your LinkedIn profile.
-linkedIn = "https://www.linkedin.com/in/saivigneshgolla/"       # "https://www.linkedin.com/in/example" or "" and so on...
+linkedIn = "https://www.linkedin.com/in/hemnath-ke-6aa6721b1/"       # "https://www.linkedin.com/in/example" or "" and so on...
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
-us_citizenship = "U.S. Citizen/Permanent Resident"
+us_citizenship = "Indian citizen"
 
 
 
@@ -56,7 +56,7 @@ And if asked in months, then it will divide by 12 and answer. Examples:
 '''
 
 # What is your current CTC? Some companies make it compulsory to be answered in numbers...
-current_ctc = 800000            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
+current_ctc = 600000            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
 '''
 Note: If question has the word "lakhs" in it (Example: What is your current CTC in lakhs), 
 then it will add '.' before last 5 digits and answer. Examples: 
@@ -87,10 +87,8 @@ then it will divide by 30 or 7 and answer respectively. Examples:
 linkedin_headline = "Full Stack Developer with Masters in Computer Science and 4+ years of experience" # "Headline" or "" to leave this question unanswered
 
 # Your summary in quotes, use \n to add line breaks if using single quotes "Summary".You can skip \n if using triple quotes """Summary"""
-linkedin_summary = """
-I'm a Senior Software Engineer at Amazon with Masters in CS and 4+ years of experience in developing and maintaining Full Stack Web applications and cloud solutions. 
-Specialized in React, Node.js, and Python.
-"""
+linkedin_summary = "
+Experienced BOM Engineer with 2.7 years in the oil and gas industry, specializing in Bill of Materials (BOM) management, configuration, and optimization. Proficient in SAP and Teamcenter for Product Lifecycle Management (PLM) and skilled in Creo & AutoCAD for engineering design interpretation. Successfully completed DVI and CONDE plants for BOM configuration, ensuring seamless integration with procurement, manufacturing, and engineering teams. Adept at engineering change management, cost optimization, and process improvement, contributing to efficient product development and reduced lead times. Passionate about driving data-driven decisions to enhance operational efficiency and quality in complex industrial projects."
 
 '''
 Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
